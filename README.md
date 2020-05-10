@@ -1,8 +1,9 @@
 # Web-Systems-Assignment
-First venture into website development and use of HTML/CSS. 
+My first venture into website development and use of HTML/CSS. 
 
 This assignment required the creation of a functional website with a set of requirements.
 No template or sample/skeleton code was provided, and the majority of learning was done through experimenting and use of online resources. 
+Written majorly within the Brackets IDE with directory and file permissions adjusted using Linux terminal. 
 
 
 

@@ -1,0 +1,172 @@
+/*
+(make sure to test case sensitivity of windows -> unix)
+List of all classes and ID's
+Classes: 
+ "top-bckgrnd"
+ "nav"
+ "top-bar-button"
+ "current_menu"
+ "h1"
+ "h2"
+ "h3"
+ "h4" 
+
+Assign styles by HTML order top-down. 
+*/
+
+/* as recommended by cs-tricks.com, reset all margins and padding for a clean slate */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+body {
+    background: darkgray;
+	font-family: Helvetica, sans-serif;
+}
+
+
+.top-bckgrnd {
+    width:100%;
+    height:150px; 
+    background-image: url("images/header.jpg");
+    background-repeat: space;
+      }
+
+.current_menu {
+background-color:#5B5145;
+}
+
+
+.nav {
+	background: #424138;
+	color: #f1f1f1;
+	font-weight: 200;
+	width: 100%;
+	height: 30px;
+}
+.nav ul {
+	list-style-type: none;
+	width: 960px;
+	margin: 0 auto;
+}
+.nav ul li {
+	float: left;
+
+}
+.nav ul li a {
+	text-decoration: none;
+	color: inherit;
+	line-height: 30px;
+	padding: 0 80px;
+}
+
+.nav ul li {
+	color: #FBFBF8;
+}
+
+/*content styles*/ 
+
+.content a {
+	color: #987456; 
+	text-decoration: none;
+}
+
+.content a:hover{
+	color: #333; 
+	text-decoration: underline;
+}
+
+
+.content h1 {
+	color: #987456;
+	margin-left: 0px;
+	margin-top: 20px;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left:10px;
+}
+
+.content h2 {
+	color: #987456;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+.content h3 {
+	color: #987456;
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+
+/*paragraph styling*/
+
+.content {
+    background-color:#fcfbf7;
+	color: #000000;
+	margin: auto;
+    width: 960px;
+    padding:30px;
+}
+
+.content p { 
+    color:#36454f  ;
+    line-height: 25px;
+    padding: 10px
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:30%;
+  width: 30%;
+}
+
+.indentContainer {
+    display: table;
+    table-layout:fixed;
+}
+
+
+
+.indent1{
+    text-indent: 30px;
+}
+
+.indent2{
+    text-indent: 30px;
+}
+
+
+.indent3{
+    text-indent: 30px;
+}
+
+
+
+
+.table {
+	width: 800px;
+	margin: 15px auto;
+	border-collapse: collapse;
+}
+.table th {
+	color: #fff;
+	background: #987456;
+	border: 1px solid black;
+	padding: 5px;
+}
+.table td {
+	border: 1px solid black;
+	padding: 5px;
+	color: #555;
+	line-height: 22px;
+}
+.table td.name {
+	text-align: center;
+	width: 25%;
+}

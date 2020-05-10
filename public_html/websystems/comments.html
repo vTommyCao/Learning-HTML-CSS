@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+    <title> Tommy Cao's First Website!</title>
+		
+<meta name="author" content= "Tommy Cao">
+<meta name="description" content= "31268 Web Systems Assignment">
+<meta name="keywords" content= "Tommy Cao, Student, Business, IT, ">	
+<meta name="viewport" content= "width=device-width, initial-scale=1">
+    <!--if viewport/scrolling messed up, check no images are breaking it-->
+
+<link rel="stylesheet" type="text/css" href="websystems.css">
+
+</head>
+
+<div class="top-bckgrnd"></div>         
+       <!--image file is a stock image taken from Canva.com -- all rights and property belong to canva and their respective owner parties-->       
+    <!--navigation bar--> 
+<div class= "nav">
+    
+    <ul class="top-bar-button">
+      <li class = "top-bar-button"><a href="index.html">Home</a> </li>
+      <li class = "top-bar-button"><a href="past.html"> Past </a> </li>
+      <li class = "top-bar-button"><a href="future.html">Future </a> </li>
+      <li class = "top-bar-button"><a class="current_menu" href="comments.html">Comments </a></li>
+    </ul>
+</div>
+    <!--content--> 
+
+    <div class="content">     
+    
+        <h1>Developer Comments:</h1>
+    
+   <p>This website was designed by Tommy Cao (12931186) for the Web Systems (31268) elective subject at the University of Technology, Sydney.</p> 
+        
+    <p>Being my first experience at any kind of HTML/CSS creation (with my only other experience with coding being with the Programming Fundamentals subject I did a couple of years ago), the assignment was challenging, but fun to take on. </p>
+    
+        <p>I initially had tried to create this bulk of this website within vim editor, through a Linux VM on windows. This proved to be much too hard and steep of a learning curve, and so I adopted for the use of the Brackets software instead (as recommended by a tutor on the discussion boards).</p>
+        <p>My final thoughts through working on this project are that although picking up the coding is simple enough,it is the matter of taking your vision and turning it into representative code that is difficult -- particularly in the small details. </p> 
+        <p>This is an issue that that I have no doubt represents inexperience, and then would be traversed better with more experience and better coding vocabulary/knowledge. With all that said, it was a very pleasant and fun project to work on, and my only regret was not starting on it sooner to flesh it out more.  </p>
+
+        <h2>Technical Structure:</h2>
+        <p>This website structure was designed initially to be simple, with an attempt to not over-complicate, but maintain a clean design with aesthetic colours and borders. In reality the execution was a more difficult than it seemed, particularly as my inexperience would lead to incorrect usage and cascading functions of the code. </p>
+        <p>With that said, the primary structure was designed to resemble this design:</p>
+        
+        <br>
+        <img src= "images/structure.jpg" alt="Website Structure Design Template" class="center">
+        <br>
+        
+        <p> The preferred way to format the content was for it to be done through a various amount of class tags, and styling each one as it was relevant:</p>
+        
+        
+        <table class="table" title="The some classes here are more so a result of what ended up working, and not necessarily the first intended function/style.">
+
+            <tr><th>Class</th><th>Used For</th></tr>
+<tr><td class="name">top-bckgrnd</td><td>This was created to assign the top cover image for the website in an easy to change/edit manner, in addition to allowing and easy template to transfer to other pages. This is just a randomly found stock photo.</td></tr>
+<tr><td class="name">Nav</td><td>This refers to the navigation bar, under the cover image, that links to the other pages (fufilling assignment requirements). This was able to work with the help of W3Schools and other resources -- it was a pain!</td></tr>
+<tr><td class="name">current_menu</td><td>This class was created to fit into the navigation bar list easily, also allowing a good identical starting template for all pages.</td></tr>
+<tr><td class="name">content</td><td>This refers to the bulk of the HTML page which sits under the navigation bar and cover image. It is of "darkgray" colour and houses the majority of the consumable text, with a contrasting dark color that allows for easy to read text that holds color consistency with the empty space on the sides. Its size is 960 pixels wide, as is the general recommendation for web designers for content consumption.</td></tr>
+<tr><td class="name">Table</td><td>This was created to create the class for this table.</td></tr>
+<tr><td class="name">Span</td><td>This span was used as I was finding it difficult to indent the lists on the "Future.html" page properly with all the cascading styles and different margins. This was the easiest to result in some effect, but it is still not where I personally want it.</td></tr>
+</table>
+        
+<br> 
+
+<h2> Aesthetic Choice:</h2>
+<p>In the consideration of the aesthetics of this page, the overarching objective was it to look clean and minimal, but clear and easy to use.</p>
+<p>To achieve this, I chose to use a small pool of colours that contrast to the text -- applying this principal by keeping colour consistency between text across all pages and within the navigation bar. I compliment this by the natural green image at the topin the header -- hoping to use the connotations nature and shrubbery provide to create a design that is clean and minimalistic, yet fitting to it's character and context. </p>
+        
+        <p>Other aesthetic choices include:</p>
+  <div class="indentContainer">
+              <ul>
+                <li><span class="indent1">Contrasting the navigation bar well from it's backdrop and surrounding components, so that pops to users&#59;</span></li>
+                
+                <li><span class="indent2">Making sure the current page was highlighted by contrasting color in the navigation bar&#59;</span></li>
+                  
+                <li><span class="indent3">Bringing left/right margins in so content is more centred, yet still left-justified to make for easy and pleasant reading. </span></li>
+                <li>Making sure all sections, headings and buttons have appropriate padding and margins to seperate the functions and text from eachother, while also making it easy to read.</li>
+                  </ul>
+        </div>
+            
+<h2>Font:</h2>
+        <p>The font I have included within the CSS for this website involves Helvetica standard as well sans-seriff, as a back up. The colour of the text has been designed to match the empty space for a pleasing visual consistency, but also to contrast from it's background to make it easy to read.</p>
+    
+<h2> Accessibility:</h2>
+    
+        <p>The structure of this website follows the assignment requirements of using semantic HTML, with styles referencing a separate CSS file. This benefits those who use the code in that it is easy to understand in which in-text classes reference which CSS components.</p>
+        
+        <p>The viewport metatag (width=device-width) has  been included, in addition to margin reset property on the asterisk (*) level . This was done to ensure that the content in the page would always adjust itself to fit the user's display -- it is this function, that allows this website to work just as well on a tablet or mobile device, as it would on a PC display. This includes the ability to also zoom in and out of the content on the site. </p>
+        
+        <p>The included tables have headers that contrast from the surrounding content and are padded to account for space, in order to make the material easy to identify and follow. </p>
+        
+        <p> Images that are used have included alt text in scenarios where the image may not load, and URL links are coded with the "target=_"blank" function to ensure it opens conveniently in a new page.</p>
+        
+        <p>Lastly, this website has been validated by the W3 HTML and Jigsaw CSS Validators as per assignment requirements. </p>
+        <br>
+        
+        <div class="css">
+        <img src="images/vcss-blue.gif" alt="VCSS CSS Check" style="width:10%">
+        <img src="images/vcss.gif" alt="VCSS Check" style="width:10%">
+        </div>
+        
+
+    </div>
+
+</html>
